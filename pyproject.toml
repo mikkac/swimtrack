@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "swimtrack"
+version = "0.1.0"
+description = "Advanced swimmer tracking in pools using YOLOv8, supervision and ByteTrack."
+authors = ["Mikolaj Kaczmarek <m.kaczmarek9@gmail.com>"]
+license = "AGPL"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
