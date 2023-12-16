@@ -7,6 +7,8 @@ license = "AGPL"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+supervision = "0.17.1"
+ultralytics = "8.0.227"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
